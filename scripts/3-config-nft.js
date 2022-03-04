@@ -11,7 +11,7 @@ const bundleDrop = sdk.getBundleDropModule(
       {
         name: "LocoDAO Member Card",
         description: "This NFT will give you access to LocoDAO!",
-        image: readFileSync(""),
+        image: readFileSync("scripts/assets/Freak o Punk #.jpg"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
