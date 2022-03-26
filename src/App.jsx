@@ -6,13 +6,13 @@ import { UnsupportedChainIdError } from "@web3-react/core";
 const sdk = new ThirdwebSDK("rinkeby");
 
 const bundleDropModule = sdk.getBundleDropModule(
-  "0x787a7533994CF01F041258425435B82ac2f5321c",
+  "0xA2a72514651F0f9d410B23E3427A7D01D844e6E1",
 );
 const tokenModule = sdk.getTokenModule(
-  " 0x1F8fEC293C99A154DBfA10b5C32abe6EFDB66A8E"
+  "0xF9A6B164bbe71Fb09966898CAC32Aa2122c89320"
 );
 const voteModule = sdk.getVoteModule(
-  "0x0d0de845Bb86Af77b78cfCEC8A091Fc833aaD3F1",
+  "0x7e358A3CB871d84944b24e0Ec63FC63fE05C04cb",
 );
 
 const App = () => {
